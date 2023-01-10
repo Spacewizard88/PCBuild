@@ -1,0 +1,353 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,300,regular,500,600,700,100italic,200italic,300italic,italic,500italic,600italic,700italic" rel="stylesheet" />;
+    box-sizing: border-box;
+}
+.zero{
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://www.newegg.com/insider/wp-content/uploads/2020/09/newegg-tech-pc-hardware-wallpaper-1-1024x576.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+   
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    color: white;
+    font-size: 50px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li:hover{
+    color: black;
+    transition: .4s;
+
+}
+.content{
+    position: absolute;
+    top: 70%;
+    left: 7%;
+    transform: translateY(-50%);
+}
+h1{
+    color: blue;
+    margin: 20px 0px 20px;
+    font-size: 50px;
+}
+.intro{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: black;
+}
+.intro-text{
+    width: 700px;
+  }
+.intro img{
+    height: auto;
+    width: 350px;
+}
+.main{
+    width: 1230px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.intro-text h2{
+    color: red;
+    font-size: 60px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.intro-text p{
+    color: red;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.cpu{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: red;
+}
+.cpu img{
+    height: auto;
+    width: 500px;
+}
+.cpu-text{
+    width: 500px;
+}
+.cpu-main{
+    width: 1230px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.cpu-text h2{
+    color: black;
+    font-size: 60px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.cpu-text p{
+    color: black;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.cooler{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: black;
+}
+.cooler img{
+    height: auto;
+    width: 400px;
+}
+.cooler-text{
+    width: 600px;
+}
+.cooler-main{
+    width: 1230px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.cooler-text h2{
+    color: red;
+    font-size: 60px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.cooler-text p{
+    color: red;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.motherboard{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: red;
+}
+.motherboard img{
+    height: auto;
+    width: 500px;
+}
+.motherboard-text{
+    width: 600px;
+}
+.motherboard-main{
+    width: 1230px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.motherboard-text h2{
+    color: black;
+    font-size: 60px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.motherboard-text p{
+    color: black;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.memory{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: black;
+}
+.memory img{
+    height: auto;
+    width: 500px;
+}
+.memory-text{
+    width: 600px;
+}
+.memory-main{
+    width: 1230px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.memory-text h2{
+    color: red;
+    font-size: 60px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.memory-text p{
+    color: red;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.storage{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: red;
+}
+.storage img{
+    height: auto;
+    width: 500px;
+}
+.storage-text{
+    width: 500px;
+}
+.storage-main{
+    width: 1230px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.storage-text h2{
+    color: black;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.storage-text p{
+    color: black;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.graphics{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: black;
+}
+.graphics img{
+    height: auto;
+    width: 550px;
+}
+.graphics-text{
+    width: 600px;
+}
+.graphics-main{
+    width: 1230px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.graphics-text h2{
+    color: red;
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.graphics-text p{
+    color: red;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.case{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: red;
+}
+.case img{
+    height: auto;
+    width: 500px;
+}
+.case-text{
+    width: 500px;
+}
+.case-main{
+    width: 1230px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.case-text h2{
+    color: black;
+    font-size: 60px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.case-text p{
+    color: black;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 20px;
+    margin-bottom: 45px;
+}
+.power{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: black;
+}
+.power img{
+    height: auto;
+    width: 500px;
+}
+.power-text{
+    width: 500px;
+}
+.power-main{
+    width: 1230px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.power-text h2{
+    color: red;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.power-text p{
+    color: red;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
